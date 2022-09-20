@@ -1,0 +1,106 @@
+*{
+    padding: :0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.hero{
+    height:100vh;
+    width: 100%;
+    background-image: url("portfolio.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+    color: white;
+    font-size:30px;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+span{
+    color:red;
+}
+.nav{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-bottom: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+ ul li{
+    display: inline-block;
+    padding: 8px;
+}
+ ul li a{
+    color:white;
+    text-decoration:none;
+}
+ul li a:hover{
+    color: greenyellow;
+}
+.but{
+    background-color:rgb(156, 14, 38);
+    color:white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding:10px 25px;
+    border-radius:25px;
+    transition: transform .2s;
+    
+}
+.but:hover{
+    transform:scale(1.1);
+}
+.content{
+    position: absolute; 
+    top:50%;
+    left:8%;
+}
+h1{
+    color:white;
+    margin: 20px 0 20px 0;
+    font size: 70px;;
+}
+h3{
+    color: white;
+    font size:25px;
+    margin-bottom:10%;
+}
+h4{
+    color: white;
+    font size: 20px;
+    letter-spacing:2px;
+}
+.new form{
+    width: 400px;
+    max-width: 100%;
+    position: relative;
+}
+.new form input:first-child{
+    width:100%;
+    display: inline-block;
+    padding:14px 130px 14px 15px;
+    border:2px solid rgb(192, 72, 72);
+    border radius:30px; 
+}
+.new form input:last-child{
+    position: absolute;
+    display: inline-block;
+    border:none;
+    border-radius: 30px;
+    padding:10px 30px;
+    background-color: rgb(182, 54, 54);
+    color: white;
+    top:6px;
+    right:6px;
+
+}
+a{
+    padding-right: 15px;
+    padding-top: 20px;
+    color:blueviolet;
+
+
+}
